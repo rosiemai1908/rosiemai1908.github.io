@@ -3,8 +3,10 @@ body {
 }
 h1 {
 	font-family: Experimental BM;
-	font-size: 100px;
+	font-size: 90px;
 	border: none;
+	margin: 30px;
+	text-align: center;
 }
 h2 {
 	font-family: Barista Script;
@@ -15,13 +17,35 @@ h2 {
 h3 {
 	font-family: Gaveliana;
 	font-size: 30px;
+	margin: 20px;
 }
 ul {
 	list-style-type: square;
 	font-family: helvetica;
 	font-size: 20px; 
 }
+.no {
+	text-decoration: none;
+	color: black;
+}
 li:hover {
 	font-size: 30px;
 	color: white;
+}
+.no:hover {
+	font-size: 30px;
+	color: white;
+}
+form {
+	font-family: helvetica;
+	font-size: 20px;
+}
+.img {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+p {
+	display: block;
+	font-family: helvetica;
 }
