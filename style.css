@@ -1,11 +1,12 @@
 body {
-	background:  black;
+	background-image:  linear-gradient(to right, #32CD32, #F75D59, #FBB917, #E6E6FA);
 }
 h1 {
-	color: white;
 	font-family: helvetica;
 }
 h2 {
-	color: white;
 	font-family: Rockwell;
+}
+.ol {
+	list-style-type: "-";
 }
