@@ -2,11 +2,26 @@ body {
 	background-image:  linear-gradient(to right, #32CD32, #F75D59, #FBB917, #E6E6FA);
 }
 h1 {
-	font-family: helvetica;
+	font-family: Experimental BM;
+	font-size: 100px;
+	border: none;
 }
 h2 {
-	font-family: Rockwell;
+	font-family: Barista Script;
+	font-size: 30px;
+	border: none;
+	margin: 5px;
 }
-.ol {
-	list-style-type: "-";
+h3 {
+	font-family: Gaveliana;
+	font-size: 30px;
+}
+ul {
+	list-style-type: square;
+	font-family: helvetica;
+	font-size: 20px; 
+}
+li:hover {
+	font-size: 30px;
+	color: white;
 }
