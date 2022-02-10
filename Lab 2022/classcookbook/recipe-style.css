@@ -1,0 +1,61 @@
+body {
+    background-color: #C3FDB8;
+    margin: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Fadoli;
+    font-weight: Black;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Fadoli;
+    font-weight: Medium;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: Fadoli;
+    font-weight: Medium;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: FUNGIS;
+    font-weight: Regular;
+    font-size: 30px;
+    text-align:  center;
+    border: 0px;
+    margin: 5px;
+}
+
+.p1 {
+    margin-top: 50px;
+}
+
+#shit {
+    color: red;
+    font-size: 15px;
+}
+
+ul {
+    font-family: Graphik;
+    font-weight: Light;
+    font-size: 15px;
+    list-style-type: georgian;  
+}
+
+ol {
+    font-family: Graphik;
+    font-weight: Light;
+    font-size: 15px;
+    list-style-type: square;
+}
