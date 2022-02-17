@@ -12,8 +12,10 @@ h2 {
 .des {
     font-family: Gaveliana;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right:200px;
 }
 
 .talk {
@@ -84,14 +86,6 @@ a {
 .grid {
     display: grid;
     grid-template-columns: 50% 50%;
-}
-
-
-#sent4:hover {
-    text-decoration:none;
-    font-family: Gaveliana;
-    font-size: 50px;
-    color: red;
 }
 
 #sent5 {
