@@ -4,17 +4,81 @@
     font-family: Gaveliana;
 }
 
-#sent1 {
-    text-decoration:none;
+h2 {
+    font-family: Gaveliana;
+    text-align: center;
+}
+
+.des {
+    font-family: Gaveliana;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.talk {
+    font-family: Gaveliana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+a {
+    text-decoration: none;
     font-family: Gaveliana;
     color: black;
+    text-align: center;
+}
+
+#sent3-0 {
     font-size: 15px;
 }
 
-#sent2:hover {
-    font-size: 50px;
-    text-transform: uppercase;
+#sent3-1 {
+    font-size: 15px;
+}
+
+#sent3-2 {
+    font-size: 15px;
+}
+
+#sent3-3 {
+    font-size: 15px;
+}
+
+#sent3-4 {
+    font-size: 15px;
+}
+
+#sent4-0:hover {
+    font-size: 45px;
     color: red;
+}
+
+#sent4-1:hover {
+    font-size: 45px;
+    color: red;
+}
+
+#sent4-2 {
+    font-size: 15px;
+}
+
+#sent4-3 {
+    font-size: 15px;
+}
+
+#sent5-0:hover {
+    font-size: 45px;
+    color: red;
+}
+
+#sent5-2 {
+    font-size: 15px;
+}
+
+#sent5-3 {
+    font-size: 15px;
 }
 
 .grid {
@@ -22,20 +86,6 @@
     grid-template-columns: 50% 50%;
 }
 
-#sent3 {
-    text-decoration:none;
-    font-family: Gaveliana;
-    color: black;
-    font-size: 15px;
-}
-
-#sent3-1 {
-    text-decoration:none;
-    font-family: Gaveliana;
-    color: black;
-    font-size: 25px;
-    text-align: right;
-}
 
 #sent4:hover {
     text-decoration:none;
@@ -45,20 +95,14 @@
 }
 
 #sent5 {
-    text-decoration:none;
     font-family: Gaveliana;
-    color: black;
-    font-size: 10px;
-}
-
-#sent6 {
     color: black;
     font-size: 50px;
     line-height: 50px;
     margin-top: 20px;
 }
 
-#sent6:hover {
+#sent5:hover {
     color: white;
     background-color: black;
     text-transform: uppercase;

@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to right, red, green, yellow);
+}
+
+h1 {
+    font-family: Marc;
+    font-size: 60px;
+    color: #FFFDD0;
+    text-align: center;
+}
+
+h2 {
+    font-family: Outfit;
+    color: #E3F9A6;
+    font-size: 40px;
+    margin-top: 50px;
+    right: 350px;
+}
+
+p {
+    font-family: helvetica;
+    color: #FED8B1;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+ul {
+    font-family: Outfit;
+    color: #E3F9A6;
+    margin-right: 350px;
+}
+
+.proc {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    background-color: #FFFDD0;
+    border-radius: 20px;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
