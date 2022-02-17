@@ -1,44 +1,55 @@
 body {
-    background-image: linear-gradient(to right, red, green, yellow);
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 50px;
+    border-color: red;
+}
+
+.bar {
+    color: #5EFB6E;
+    font-weight: Light;
+    font-size: 25px;
+}
+.red:hover {
+    color:red;
 }
 
 h1 {
     font-family: Marc;
-    font-size: 60px;
-    color: #FFFDD0;
+    font-size: 80px;
+    color: #5EFB6E;
     text-align: center;
 }
 
 h2 {
     font-family: Outfit;
-    color: #E3F9A6;
+    color: #5EFB6E;
     font-size: 40px;
-    margin-top: 50px;
-    right: 350px;
+    text-align: right;
 }
 
 p {
     font-family: helvetica;
-    color: #FED8B1;
-    margin-left: 350px;
-    margin-right: 350px;
+    color: #FF8040;
+    padding-right: 350px;
+    font-size: 18px;
 }
 
 ul {
     font-family: Outfit;
-    color: #E3F9A6;
-    margin-right: 350px;
+    color: red;
+    font-size: 18px;
 }
 
-.proc {
+div {
     display: grid;
-    grid-template-columns: 50% 50%;
-    align-content: center;
-    background-color: #FFFDD0;
-    border-radius: 20px;
+    grid-template-columns: 30vw 70vw;
+    column-gap: 30px;
+    justify-content: start;
 }
 
-.steps {
+.img {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 50vw 50vw;
+    justify-items: center;
 }
