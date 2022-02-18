@@ -10,6 +10,11 @@ body {
     font-weight: Light;
     font-size: 25px;
 }
+
+.red {
+    text-decoration: none;
+    color: #5EFB6E;
+}
 .red:hover {
     color:red;
 }
