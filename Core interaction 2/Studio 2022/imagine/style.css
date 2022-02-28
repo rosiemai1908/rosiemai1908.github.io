@@ -1,0 +1,102 @@
+text {
+    font-family: helvetica;
+    font-size: 25px;
+    fill: black;
+    margin: 0px;
+}
+
+g {
+    fill: none;
+    stroke-width: 3;
+    stroke: black;
+}
+
+.container {
+    height: 520px;
+    width: 965px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 20px;
+    overflow-y: scroll;
+}
+
+.fire {
+    font-family: 'Paragon';
+    font-size: 27px;
+    font-weight: bold;
+    word-spacing: 3px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.opinion {
+    font-family: 'Gaveliana';
+    font-size: 10px;
+    text-align: justify;
+    padding-top: 25px;
+}
+
+.imagine {
+    font-family: 'Paragon';
+    font-size: 27px;
+    font-style: italic;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.last {
+    font-family: Helvetica;
+    text-align: justify;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom: -20px;
+}
+
+.songname {
+    font-family: 'Gaveliana';
+    padding-bottom: 10px;
+}
+
+span {
+    display: inline;
+    text-align: right;
+}
+
+.highlight-bad {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.highlight-good {
+    border: 3px black solid;
+    border-radius: 30px;
+}
+
+.alert-underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pop-up {
+    visibility: hidden;
+    font-family: 'Paragon';
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: regular;
+    width: 350px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    top: 150px;
+    left: 330px;
+    position: absolute;
+    z-index: 1;
+}
+
+.pop-box .show {
+    visibility: visible;
+}
