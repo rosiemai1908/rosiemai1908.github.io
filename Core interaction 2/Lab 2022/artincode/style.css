@@ -1,10 +1,14 @@
 body {
     background-color: #FBF6D9;
+} 
+
+.background-index {
+    background: linear-gradient(to bottom, #E4287C, #F87217, #FBB917, #52D017, #1F45FC);
 }
 
 h1 {
     font-family: 'Ddouglas';
-    font-size: 30em;
+    font-size: 15em;
     letter-spacing: 0em;
     text-align: center;
     margin-top: 200px;
@@ -14,26 +18,32 @@ h1 {
 
 h2 {
     font-family: 'Bree Serif', serif;
+    color: #FBF6D9;
     font-size: 4em;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 500px;
 }
 
+p.index {
+    color: #FBF6D9;
+    text-align: justify;
+}
+
 .pink {
-    color: #E4287C;
+    color: black;
 }
 .orange {
-    color: #F87217;
+    color: #FBF6D9;
 }
 .yellow {
-    color: #FBB917;
+    color: black;
 }
 .green {
-    color: #52D017;
+    color: #FBF6D9;
 }
 .blue {
-    color: #1F45FC;
+    color: black;
 }
 
 h3 {
@@ -41,11 +51,32 @@ h3 {
     font-size: 3em;
     margin-bottom: 20px;
     padding-left: 60px;
+    text-align: center;
 }
 
 p {
-    font-family: 'Fira Sans';
-    padding: 0px 60px 0px 60px;
+    font-family: 'Karrik';
+    font-size: 1.5em;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+}
+article {
+    padding: 0px 50px 0px 0px;
+}
+.image {
+    height: 1350px;
+    overflow-y: scroll;
+}
+.img-page1 {
+    padding: 20px;
+}
+.div {
+    text-align: center;
+    margin-top: 3px;
 }
 
 .link {
@@ -53,4 +84,86 @@ p {
     color: black;
     cursor: pointer;
     text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    border-color: #E4287C;
+    border-width: 3em;
+}
+
+p.pink {
+    color: #E4287C;
+}
+p.orange {
+    color: #F87217;
+}
+p.green {
+    color: #52D017;
+}
+p.blue {
+    color: #1F45FC;
+}
+p.page1 {
+    padding: 0px 180px 0px 180px;
+}
+
+body.page2 {
+    background-image: linear-gradient(to bottom, #E4287C, #F87217, #FBB917, #52D017, #1F45FC);
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(100px auto);
+    overflow-y: scroll;
+    grid-gap: 20px;
+}
+p.page2 {
+    color: #FBF6D9;
+}
+p.page2-intro {
+    font-size: 3em;
+    color: #FBF6D9;
+}
+.chorus {
+    text-align: center;
+    font-size: 4em;
+    color: #FBF6D9;
+}
+
+@media screen and (min-width: 768px) {
+    .background-index {
+        background: #FBF6D9;
+    }
+    p.index {
+        color: black;
+    }
+    .pink {
+        color: #E4287C;
+    }
+    .orange {
+        color: #F87217;
+    }
+    .yellow {
+        color: #FBB917;
+    }
+    .green {
+        color: #52D017;
+    }
+    .blue {
+        color: #1F45FC;
+    }
+    h1 {
+        font-size: 30em;
+    }
+    h2 {
+        color: black;
+    }
+    p.index {
+        text-align: left;
+    }
 }
