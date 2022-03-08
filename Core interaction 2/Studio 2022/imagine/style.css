@@ -2,7 +2,7 @@
     font-family: helvetica;
     font-size: 100px;
     text-align: center;
-    padding: 250px 0px 800px 0px;
+    padding: 250px 0px 300px 0px;
 }
 #h1 {
     font-family: 'Paragon';
@@ -15,15 +15,15 @@
     font-size: 25px;
     word-spacing: 3px;
     width: 30vw;
-    padding: 0px 0px 500px 30px;
+    padding: 200px 0px 500px 30px;
 }
 
 .introduction {
     font-family: helvetica;
     font-size: 60px;
     text-align: center;
-    margin-top: 10px;
-    line-height:1;
+    margin-top: 60px;
+    line-height: 1;
 }
 .special-word {
     font-family: 'Paragon';
@@ -51,8 +51,9 @@
     text-transform: uppercase;
     word-spacing: 5px;
     width: 50vw;
-    padding: 0px 0px 500px 30px;
+    padding: 0px 0px 100px 30px;
 }
+
 .personal-highlight {
     font-style: normal;
     text-decoration: underline;
@@ -84,31 +85,33 @@ g {
 }
 
 .container {
-    height: 425px;
+    height: 430px;
     width: 940px;
+    background-color: black;
+    color: white;
     display: grid;
     grid-template-columns: 2fr 2fr 1.5fr;
     grid-auto-rows: minmax(350px, auto);
     grid-gap: 20px;
     overflow-y: scroll;
-    margin-left: 13px;
+    margin-left: 30px;
 }
 .container2 {
     width: 940px;
+    background-color: black;
+    color: white;
     display: grid;
     position: sticky;
-    width: 965px;
     grid-template-columns: 2fr 2fr 1.5fr;
     grid-template-rows: 50px;
-    padding-left: 40px;
+    margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 5px;
 }
 .title-intro {
     font-family: helvetica;
     font-weight: bold;
     font-size: 12px;
-    padding-right: 60px;
+    padding-right: 30px;
     text-align: center;
 }
 .fire {
@@ -116,13 +119,14 @@ g {
     font-size: 25px;
     font-weight: bold;
     word-spacing: 3px;
-    padding-left: 35px;
+    padding-left: 10px;
 }
 .opinion {
     font-family: 'Gaveliana';
     font-size: 10px;
     text-align: justify;
     padding-top: 20px;
+    padding-right: 20px;
 }
 .imagine {
     font-family: 'Paragon';
@@ -162,8 +166,8 @@ g {
     word-spacing: 2px;
     font-weight: regular;
     width: 350px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px;
     top: 150px;
