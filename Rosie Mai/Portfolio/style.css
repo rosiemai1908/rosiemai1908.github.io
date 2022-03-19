@@ -31,7 +31,7 @@ a {
 p {
     font-family: 'Space Grotesk';
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1em;
     margin-top: 10px;
     padding-right: 20px;
 }
@@ -73,7 +73,7 @@ blockquote {
     font-family: 'Space Grotesk';
     font-weight: normal;
     font-size: 1em;
-    margin-top: 3px;
+    margin-top: 0px;
 }
 
 .container {
