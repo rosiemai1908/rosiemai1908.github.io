@@ -1,0 +1,36 @@
+body {
+    background: #3CB371;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Chaumont_script Beta';
+    font-style: italic;
+    font-size: 13em;
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.bubble {
+    font-family: 'Chaumont_script Beta';
+    font-size: 4em;
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: .1rem #6AFB92;
+    cursor: pointer;
+}
+
+img {
+    position: fixed;
+    top: 150px;
+    left: 400px;
+    z-index: -1;
+}
