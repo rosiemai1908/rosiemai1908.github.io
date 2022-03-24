@@ -31,7 +31,7 @@ a {
 p {
     font-family: 'Space Grotesk';
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 10px;
     padding-right: 20px;
 }
@@ -71,8 +71,8 @@ img {
 }
 blockquote {
     font-family: 'Space Grotesk';
-    font-weight: normal;
-    font-size: 1em;
+    font-weight: bold;
+    font-size: 1.1em;
     margin-top: 0px;
 }
 
@@ -86,4 +86,45 @@ blockquote {
     align-items: stretch; 
     height: 800px;
     overflow-y: scroll;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 15px;
+    align-content: center;
+}
+.cv-content {
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    color: #12AD2B;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+ul {
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    font-size: 1.1em;
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.cv-title {
+    font-family: 'PT Sans Narrow';
+    font-weight: normal;
+    font-size: 1.9em;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.cv-intro {
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    font-size: 1.2em;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+span {
+    color: #12AD2B;
 }

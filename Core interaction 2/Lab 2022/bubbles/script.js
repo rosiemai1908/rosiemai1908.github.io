@@ -12,3 +12,4 @@ container.addEventListener('click', function (event) {
         event.target.remove();
     }
 });
+
