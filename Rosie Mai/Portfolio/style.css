@@ -10,9 +10,9 @@ h2 {
 }
 
 h1 {
-    font-family: 'PT Sans Narrow';
+    font-family: 'Fira Sans Compressed';
     font-weight: normal;
-    font-size: 1.9em;
+    font-size: 1.8em;
     padding-left: 20px;
     line-height: 40px;
     margin-top: 5px;
@@ -39,7 +39,7 @@ p {
 }
 
 .work-title {
-    font-family: 'PT Sans Narrow';
+    font-family: 'Fira Sans Compressed';
     font-weight: normal;
     font-size: 3em;
     line-height: 50px;
@@ -113,7 +113,7 @@ ul {
     padding-bottom: 10px;
 }
 .cv-title {
-    font-family: 'PT Sans Narrow';
+    font-family: 'Fira Sans Compressed';
     font-weight: normal;
     font-size: 1.9em;
     padding-left: 20px;
