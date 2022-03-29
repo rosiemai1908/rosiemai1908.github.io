@@ -1,3 +1,5 @@
+
+
 h2 {
     font-family: 'Space Grotesk';
     font-weight: medium;
@@ -126,5 +128,9 @@ ul {
 }
 
 span {
+    color: #12AD2B;
+}
+
+a.highlight:hover {
     color: #12AD2B;
 }
