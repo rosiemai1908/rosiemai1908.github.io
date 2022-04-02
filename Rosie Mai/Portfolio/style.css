@@ -71,11 +71,15 @@ p {
 img {
     margin-bottom: 20px;
 }
-blockquote {
+figure {
+    margin: 0px;
+}
+figcaption {
     font-family: 'Space Grotesk';
     font-weight: bold;
-    font-size: 1.1em;
-    margin-top: 0px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #12AD2B;
 }
 
 .container {
@@ -84,7 +88,6 @@ blockquote {
     grid-gap: 15px;
 }
 .img-contain {
-    margin-left: 20px;
     align-items: stretch; 
     height: 800px;
     overflow-y: scroll;
