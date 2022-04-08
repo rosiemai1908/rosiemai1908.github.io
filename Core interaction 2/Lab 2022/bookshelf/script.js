@@ -1,4 +1,4 @@
-console.log("Hello, bookshelf");
+console.log("Hello bookshelf!");
 
 var Airtable = require("airtable");
 console.log(Airtable);
@@ -6,38 +6,13 @@ console.log(Airtable);
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'keyhIiKOMAQWNvsMt'}).base('app6ljwgKqItWDznC');
 
-base('books').select({
-    // Selecting the first 3 records in Grid view:
-    maxRecords: 10,
-    view: "Grid view"
-}).eachPage(function page(records, fetchNextPage) {
-    // This function (`page`) will get called for each page of records.
+base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
 
-    records.forEach(function(record) {
-        console.log('Retrieved', record.get('Name'));
-    });
+// an empty array to hold our book data
+const books = [];
 
-    // To fetch the next page of records, call `fetchNextPage`.
-    // If there are more records, `page` will get called again.
-    // If there are no more records, `done` will get called.
-    fetchNextPage();
-
-}, function done(err) {
-    if (err) { console.error(err); return; }
-});
-
-//get the "books" table from the base, select ALL the records, and specify the functions that will receive the data
-base("books").select({
-    view: "design"
-  }).eachPage(gotPageOfBooks, gotAllBooks);
-  
-  
-  // an empty array to hold our book data
-  const books = [];
-  
-  
-  // callback function that receives our data
-  function gotPageOfBooks(records, fetchNextPage) {
+// callback function that receives our data
+function gotPageOfBooks(records, fetchNextPage) {
     console.log("gotPageOfBooks()");
     // add the records from this page to our books array
     books.push(...records);
@@ -86,6 +61,7 @@ base("books").select({
       shelf.appendChild(div);
     });
   }
+
   
   // show the detail info for a book, and highlight the active book-spine
   function showBook(book, div) {
@@ -100,7 +76,7 @@ base("books").select({
       book.fields.description;
     bookDetail.getElementsByClassName("more")[0].href = book.fields.more;
     bookDetail.getElementsByClassName("cover-image")[0].src =
-      book.fields.cover_image[0].url;
+      book.fields.images[0].url;
   
     // remove the .active class from any book spines that have it...
     const shelf = document.getElementById("shelf");

@@ -1,0 +1,63 @@
+h1 {
+    font-family: helvetica;
+    font-weight: normal;
+    padding-left: 50px;
+    font-size: 2.5em;
+}
+h1.link-first {
+    margin-top: 5px;
+}
+
+span {
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a.first-link {
+    font-size: .6em;
+    color: red;
+}
+
+p.introduction {
+    font-family: helvetica;
+    font-size: 1.4em;
+    padding-left: 50px;
+    padding-right: 550px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    line-height: 1.3em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.hover:hover + .image {
+    display: block;
+    background: red;
+}
+
+h3 {
+    font-family: helvetica;
+    font-weight: normal;
+    padding-left: 30px;
+}
+.shuffle {
+    padding-right: 30px;
+}
+div.container {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}

@@ -1,11 +1,16 @@
+html {
+  background: pink;
+}
+
 h1 {
     font-family: 'helvetica';
-    color: red;
+    color: black;
+    font-size: 4em;
+    text-align: center;
 }
 
 body {
     font-family: 'helvetica';
-    background: white;
   }
   
   .hidden {
@@ -17,6 +22,7 @@ body {
     display: flex;
     align-items: flex-end;
     margin-bottom: 2em;
+    padding-left: 100px;
   }
   
   .shelf .book-spine {
@@ -24,7 +30,7 @@ body {
     color: white;
   
     height: fit-content;
-    width: 30px;
+    width: 50px;
     padding: 10px 0px;
     margin-bottom: 2px;
     margin-right: 2px;
@@ -37,8 +43,8 @@ body {
     cursor: pointer;
   }
   
-  .shelf .book-spine.active {
-    background: red;
+  .shelf .book-spine.active{
+    background: green;
   }
   
   .shelf .book-spine:hover {
@@ -57,7 +63,6 @@ body {
   
   .book-detail .cover-image {
     width: 100%;
-    border: 5px solid black;
     padding: 5px;
     box-sizing: border-box;
   }
