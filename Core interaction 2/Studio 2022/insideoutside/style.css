@@ -5,6 +5,7 @@ h1 {
     font-size: 2.5em;
 }
 h1.link-first {
+    font-size: 3.4em;
     margin-top: 5px;
 }
 
@@ -28,7 +29,7 @@ a.first-link {
 
 p.introduction {
     font-family: helvetica;
-    font-size: 1.4em;
+    font-size: 1.9em;
     padding-left: 50px;
     padding-right: 550px;
     margin-bottom: 5px;
@@ -36,28 +37,43 @@ p.introduction {
     line-height: 1.3em;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    border: 1px solid red;
+.intro-image {
+    margin-bottom: -5px;
+    padding-left: 10px;
 }
 
-.hover:hover + .image {
+.intro-image:hover {
     display: block;
-    background: red;
+    width: 300px;
+    height: auto;
 }
 
 h3 {
     font-family: helvetica;
     font-weight: normal;
     padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
 }
 .shuffle {
     padding-right: 30px;
 }
+
 div.container {
     display: grid;
     margin: 10px;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
     grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.cover-image {
+    width: 350px;
+    height: auto;
 }

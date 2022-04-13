@@ -10,7 +10,7 @@
 <body>
     <nav>
         <h3 class="h3-narration"><a href="index.html">The Manipulation Cycle</a></h3>
-        <h3 class="shuffle">Shuffle 🎲</h3>
+        <h3 id="shuffle" onclick="shuffle()" class="shuffle">Shuffle 🎲</h3>
     </nav>
     
     <div class="container">
@@ -18,25 +18,34 @@
             
         </div>
 
-        <div>
-            <img>
+        <div class="center">
+            <img id="future" class="cover-image"
+            src="https://www.cs.princeton.edu/~bwk/tpop.webpage/tpop.jpg"
+            alt="Future Cover">
         </div>
 
         <div>
             
         </div>
 
-        <div>
-            <img>
+        <div class="center">
+            <img id="leader" class="cover-image"
+            src="https://www.cs.princeton.edu/~bwk/tpop.webpage/tpop.jpg"
+            alt="Leader Cover">
         </div>
 
         <div>
 
         </div>
 
-        <div>
-            <img>
+        <div class="center">
+            <img id="people" class="cover-image"
+            src="https://www.cs.princeton.edu/~bwk/tpop.webpage/tpop.jpg"
+            alt="People Cover">
         </div>
     </div>
+
+    <script src="lib/airtable.browser.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

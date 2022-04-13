@@ -5,7 +5,7 @@ html {
 h1 {
     font-family: 'helvetica';
     color: black;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -16,13 +16,25 @@ body {
   .hidden {
     display: none !important;
   }
+
+  /* main {
+    margin: 0 auto;
+    max-width: 80%;
+  } */
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
   
   .shelf {
     border-bottom: 10px solid black;
     display: flex;
     align-items: flex-end;
     margin-bottom: 2em;
-    padding-left: 100px;
+    width: 500px;
   }
   
   .shelf .book-spine {
