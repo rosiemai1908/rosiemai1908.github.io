@@ -6,7 +6,9 @@ console.log(Airtable);
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'keyhIiKOMAQWNvsMt'}).base('app6ljwgKqItWDznC');
 
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+base("books").select({
+  view: "type design"
+}).eachPage(gotPageOfBooks, gotAllBooks);
 
 // an empty array to hold our book data
 const books = [];

@@ -10,9 +10,9 @@ h2 {
 }
 
 h1 {
-    font-family: 'Fira Sans Compressed';
+    font-family: 'Space Grotesk';
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 1.4em;
     padding-left: 20px;
     line-height: 40px;
     margin-top: 5px;
@@ -23,6 +23,8 @@ h3 {
     font-weight: normal;
     padding-left: 20px;
     margin-bottom: 1px;
+    font-size: 1em;
+    color: #12AD2B;
 }
 
 a {
@@ -35,22 +37,22 @@ p {
     font-weight: normal;
     font-size: 1.2em;
     margin-top: 10px;
-    padding-right: 20px;
+    padding-right: 200px;
 }
 
 .work-title {
-    font-family: 'Fira Sans Compressed';
-    font-weight: normal;
+    font-family: 'Space Grotesk';
+    font-weight: bold;
     font-size: 3em;
     line-height: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-right: 300px;
+    padding-right: 250px;
 }
 .sub-title {
     font-family: 'Space Grotesk';
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 1.9em;
     margin-top: 30px;
     margin-bottom: 10px;
 }
