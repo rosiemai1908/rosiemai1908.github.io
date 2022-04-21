@@ -1,0 +1,51 @@
+html {
+    background: rgb(30, 206, 30);
+}
+h1 {
+    font-family: helvetica;
+    text-align: center;
+}
+
+button{
+    font-family: helvetica;
+    cursor: pointer;
+    position: block;
+}
+
+div {
+    border: 1px solid rgb(202, 20, 51);
+}
+
+/*.cut-image {
+    position: absolute;
+    background: url('cat.jpg');
+    width: 500px;
+    height: 500px;
+    left: 469px;
+    z-index: -10;
+    visibility: hidden;
+}*/
+
+.pixel:hover {
+    background-color: yellow;
+}
+
+img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 470px;
+    top: 133px;
+    z-index: -10;
+    visibility: hidden;
+}
+
+.grid-container {
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}

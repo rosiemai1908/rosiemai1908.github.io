@@ -50,7 +50,7 @@ function cycleStart() {
 
 //Randomly shuffle the images
 function shuffle() {
-    let randomFuture = Math.floor(Math.random()*29);
+    let randomFuture = Math.floor(Math.random()*29); 
     let randomPeople = Math.floor(Math.random()*36);
     let randomLeader = Math.floor(Math.random()*23);
 
@@ -68,6 +68,7 @@ function shuffle() {
     htmlLeader.src = leader[randomLeader].fields.Photos[0].url
 }
 
+console.log(fullArray)
 
 
 /*
