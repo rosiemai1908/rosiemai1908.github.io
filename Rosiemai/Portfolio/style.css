@@ -9,15 +9,6 @@ h2 {
     margin-top: 20px;
 }
 
-h1 {
-    font-family: 'Space Grotesk';
-    font-weight: normal;
-    font-size: 1.4em;
-    padding-left: 20px;
-    line-height: 40px;
-    margin-top: 5px;
-}
-
 h3 {
     font-family: 'Space Grotesk';
     font-weight: normal;
@@ -71,6 +62,8 @@ p {
 }
 
 img {
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 figure {
@@ -86,12 +79,12 @@ figcaption {
 
 .container {
     display: grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: 2fr 6fr;
     grid-gap: 15px;
 }
 .img-contain {
-    align-items: stretch; 
     height: 800px;
+    width: auto;
     overflow-y: scroll;
 }
 
@@ -116,6 +109,7 @@ ul {
     margin-top: 5px;
     padding-right: 20px;
     padding-bottom: 10px;
+    padding-inline-start: 20px;
 }
 .cv-title {
     font-family: 'Fira Sans Compressed';
@@ -124,6 +118,14 @@ ul {
     padding-left: 20px;
     margin-bottom: 5px;
 }
+li {
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-top: 5px;
+    list-style: none;
+}
+
 .cv-intro {
     font-family: 'Space Grotesk';
     font-weight: normal;
@@ -139,4 +141,10 @@ span a {
 
 a.highlight:hover {
     color: #12AD2B;
+}
+
+.image {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 }
