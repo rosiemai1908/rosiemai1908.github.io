@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Graphik Web";
+    font-family: "Graphik Web Regular";
     src: url("GraphikWeb-Regular.woff2") format("woff2");
   }
   @font-face {
@@ -10,23 +10,6 @@
     font-family: "Arapey Bold";
     src: url("Arapey-Bold.otf") format("woff2");
   }
-
-.graphik-bold {
-    font-family: 'Graphik Web';
-    font-weight: bold;
-    font-style: normal;
-}
-.graphik-regular {
-    font-family: 'Graphik Web';
-    font-weight: normal;
-    font-style: normal;
-}
-.arapey-bold {
-    font-family: 'Arapey';
-    font-weight: bold;
-    font-style: normal;
-}
-
 
 
 html {
