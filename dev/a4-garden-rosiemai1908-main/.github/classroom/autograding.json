@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Set shape correctly",
+      "setup": "npm install",
+      "run": "npm run test -- -t 'Set shape correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Render shape correctly",
+      "setup": "npm install",
+      "run": "npm run test -- -t 'Render shape correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Place shape correctly",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Place shape correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Clear garden correctly",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Clear garden correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
