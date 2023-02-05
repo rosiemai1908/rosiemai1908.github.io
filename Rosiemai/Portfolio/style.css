@@ -212,7 +212,6 @@ article.work {
 
 h1 {
     font-family: 'Arapey Bold';
-    font-style: italic;
     font-size: 3em;
     text-align: center;
     margin: 0px;
@@ -230,7 +229,7 @@ p {
     line-height: 22px;
 }
 p.small-title {
-    font-family: 'Graphik Web BOld';
+    font-family: 'Graphik Web Bold';
     font-size: 1.2em;
     line-height: 22px;
     margin-top: 30px;
