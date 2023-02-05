@@ -24,7 +24,7 @@ export default class Garden {
     let inputEl = this.controlsEl.querySelectorAll('input');
     inputEl.forEach((el) => {
       el.addEventListener('input', () => {
-        this.setShape();
+        this.setShape(); 
         this.renderShape();
       })
     })
