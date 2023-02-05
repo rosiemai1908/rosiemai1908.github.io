@@ -34,7 +34,7 @@ body {
     z-index: 2;
 }
 #name {
-    font-family: 'graphik web';
+    font-family: 'Graphik Web Regular';
     position: fixed;
     text-align: left;
     color: #DC143C;
@@ -66,7 +66,7 @@ body {
     100% {left: 170px;}
 }
 #intro-text {
-    font-family: 'graphik web';
+    font-family: 'Graphik Web Regular';
     font-size: 1.5em;
     margin: 0px;
     padding-top: 15px;
@@ -90,7 +90,7 @@ ul{
     margin-top: 3px;
 }
 li.cv-list {
-    font-family: 'graphik web';
+    font-family: 'Graphik Web Regular';
     font-size: 1em;
     line-height: 23px;
 }
@@ -211,7 +211,7 @@ article.work {
 }
 
 h1 {
-    font-family: 'arapey';
+    font-family: 'Arapey Bold';
     font-style: italic;
     font-size: 3em;
     text-align: center;
@@ -219,21 +219,18 @@ h1 {
 }
 h3 {
     font-size: 1.2em;
-    font-family: 'graphik web';
-    font-weight: normal;
+    font-family: 'Graphik Web Regular';
 }
 h3.onclick:active{
     color: black;
 }
 p {
-    font-family: 'graphik web';
-    font-weight: normal;
+    font-family: 'Graphik Web Regular';
     font-size: 1em;
     line-height: 22px;
 }
 p.small-title {
-    font-family: 'graphik web';
-    font-weight: bold;
+    font-family: 'Graphik Web BOld';
     font-size: 1.2em;
     line-height: 22px;
     margin-top: 30px;
@@ -260,7 +257,7 @@ img.caption {
     margin-bottom: 10px;
 }
 figure.image-container {
-    font-family: 'graphik web';
+    font-family: 'Graphik Web Regular';
     display: flex;
     flex-direction: column;
     align-items: center;
