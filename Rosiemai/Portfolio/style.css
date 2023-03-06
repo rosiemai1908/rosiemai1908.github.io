@@ -129,7 +129,7 @@ div.menu:hover {
 
 div.collapse {
     display: flex;
-    width: 4030px;
+    width: 3210px;
     height: 740px;
     overflow: hidden;
     overflow-x: scroll; 
