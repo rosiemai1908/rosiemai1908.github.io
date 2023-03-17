@@ -73,7 +73,7 @@ body {
 }
 
 
-/* CV only */
+/* CV only
 h1.cv-title {
     font-size: 1.7em;
     text-align: left;
@@ -93,22 +93,21 @@ li.cv-list {
     font-family: 'Graphik Web Regular';
     font-size: 1em;
     line-height: 23px;
-}
+}*/
 
 
 /* containers */
 div.body-container {
     display: flex;
+    flex-wrap: wrap;
     margin: 5px;
-    height: 735px;
-    width: auto;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     height: 740px;
-    width: auto;
+    width: 100vw;
     overflow: hidden;
     overflow: scroll;
 }
@@ -129,10 +128,9 @@ div.menu:hover {
 
 div.collapse {
     display: flex;
-    width: 3210px;
-    height: 740px;
-    overflow: hidden;
-    overflow-x: scroll; 
+    width: 3315px;
+    height: auto;
+    overflow: auto; 
 }
 #editorial {
     display: none;
@@ -140,9 +138,8 @@ div.collapse {
     width: 1293px;
     top: 50px;
     left: 140px;
-    height: 735px;
-    overflow: hidden;
-    overflow: scroll; 
+    height: auto;
+    overflow: auto; 
 }
 #packaging {
     display: none;
@@ -198,22 +195,22 @@ div.collapse {
 
 div.work {
     display: flex;
-    width: 800px;
+    width: 1100px;
     height: 733px;
     margin-right: 5px;
     border: black solid 1px;
     background-color: #E5E4E2;
 }
 article.work {
-    margin: 46px 40px 0px 40px;
-    height: 688px;
+    margin: 40px 40px 0px 40px;
+    height: auto;
     overflow-y: scroll;
 }
 
 h1 {
-    font-family: 'Arapey Bold';
+    font-family: 'Graphik Web Bold';
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     margin: 0px;
 }
 h3 {
@@ -234,7 +231,7 @@ p.small-title {
     line-height: 22px;
     margin-top: 30px;
     margin-bottom: 0px;
-    margin: 30px 85px 0px 85px;
+    margin: 30px 0px 0px 0px;
 }
 
 img {
@@ -270,20 +267,25 @@ figcaption {
 div.about {
     display: block;
     position: absolute;
-    width: 800px;
+    width: 1100px;
     top: 50px;
     left: 140px;
     height: 735px;
 }
 article.about {
-    margin: 20px 400px 0px 30px;
-    height: 695px;
+    margin: 20px 300px 0px 30px;
+    height: 500px;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
 }
 p.about {
     font-size: 1.2em;
     line-height: 24px;
     margin-top: 5px;
+}
+img.headshot {
+    margin-left: 50px;
 }
 /*span.about {
     color: #DC143C;
@@ -295,8 +297,14 @@ a {
 }
 
 /* project divs */
+p.explain {
+    margin: 25px 600px 50px 0px;
+    text-align: justify;
+}
+
+/*
 p.editorial {
-    margin: 25px 85px 10px 85px;
+    margin: 25px 600px 50px 0px;
     text-align: justify;
 }
 
@@ -319,4 +327,4 @@ p.interaction {
     margin: 25px 85px 30px 85px;
     text-align: justify;
 }
-
+*/
